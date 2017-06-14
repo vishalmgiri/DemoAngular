@@ -1,0 +1,75 @@
+﻿/*Common stylesheet for the application*/
+body {
+    font-family: Arial;
+}
+
+.nav-tabs > li.active > a {
+    color: grey;
+}
+
+.nav-tabs > li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .nav-tabs > li > a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .nav-tabs, .nav-tabs > li > a {
+        /*border: 1 !important;*/
+    }
+
+.uib-tab a {
+    color: red;
+    font-size: 11.5px;
+}
+
+.uib-tab.active a {
+    color: grey;
+    font-weight: bold;
+}
+
+.headerStyle {
+    background-color: red;
+    color: white !important;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.icon-style {
+    padding-top: 7px;
+    margin-left: -24px !important;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    display: inline-block;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    display: inline-block;
+}
+
+.dvui-view-style {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family: Arial;
+}
+
+.dvtab-content-style {
+    margin-top: 15px;
+}

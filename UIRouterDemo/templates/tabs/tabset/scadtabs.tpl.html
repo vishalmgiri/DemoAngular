@@ -1,0 +1,31 @@
+<!-- Following HTML is created to display tab data, used with generic controller and multiple views -->
+<div class="body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12"><h2>{{scad.HeaderText}} <a ui-sref='help({{scad.TableId}})'> (Help)</a></h2></div>
+            <div class="col-sm-12 col-md-12 col-lg-12" ng-if="!scad.CanAccess">Access Denied</div>
+            {{scad.TableId}}
+        </div>
+        <div class="row">
+            <div ng-if="scad.CanAccess" class="col-sm-12 col-md-12 col-lg-12">
+                <div ng-if="scad.ShowFilter">
+                    <div ng-if="scad.CanFilter" ui-view="filters@tab.form"></div>
+                </div>
+                <div ng-if="scad.ShowList">
+                    <div ng-if="scad.CanAccess" ui-view="list@tab.form"></div>
+                </div>
+                <div ng-if="scad.ShowForm">
+                    <uib-tabset>
+                        <uib-tab heading="Credit App">
+                            <div ng-if="scad.ShowForm" ui-view="form@tab.form"></div>
+                        </uib-tab>
+                        <uib-tab heading="Details">
+                            <div ui-view></div>
+                        </uib-tab>
+                    </uib-tabset>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,33 @@
+﻿<!-- Following HTML is main page of the application -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="demoapp">
+<head>
+    <title></title>
+    <base href="/" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-sanitize.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+    <script src="Scripts/angular-ui-router-tabs/ui-router-tabs.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="app.js"></script>
+    <!--This one to be used to check the output with static data for multiple tab -->
+    <!--<script src="route.js"></script>-->
+    <!--This one to be used to check the output with generalised state for multiple tab data-->
+    <script src="route1.js"></script>
+    <script src="Controllers/headerController.js"></script>
+    <script src="Controllers/userController.js"></script>
+    <script src="Controllers/creditAppController.js"></script>
+    <script src="Controllers/purposeOfAppController.js"></script>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-controller="headerCntrl">
+        <div ng-include src="header.url"></div>
+    </div>
+    <div class="col-sm-12 col-lg-12 row dvui-view-style">
+        <div ui-view></div>
+    </div>
+</body>
+</html>

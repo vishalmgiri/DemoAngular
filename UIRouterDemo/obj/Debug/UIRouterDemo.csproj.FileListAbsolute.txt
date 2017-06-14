@@ -1,0 +1,5 @@
+D:\NP\Angular 1\UIRouterDemo\UIRouterDemo\bin\UIRouterDemo.dll.config
+D:\NP\Angular 1\UIRouterDemo\UIRouterDemo\bin\UIRouterDemo.dll
+D:\NP\Angular 1\UIRouterDemo\UIRouterDemo\bin\UIRouterDemo.pdb
+D:\NP\Angular 1\UIRouterDemo\UIRouterDemo\obj\Debug\UIRouterDemo.dll
+D:\NP\Angular 1\UIRouterDemo\UIRouterDemo\obj\Debug\UIRouterDemo.pdb
