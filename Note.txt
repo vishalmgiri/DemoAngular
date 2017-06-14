@@ -1,0 +1,10 @@
+With static tabs , different states  and single controller it works.
+With generalized state:
+1. Implemented single controller
+2. Defined generalized state for tabs .
+3. Set parameters specific to tabs.
+4. Able to navigate between different states.
+5. Not able to navigate between tabs with same state and different parameters.
+
+I have commitetd project to review code. I have documented and indented the code wherever required.
+Could please review the code and let us know your feedback.
